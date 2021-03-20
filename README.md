@@ -1,4 +1,5 @@
-# What is this : Its a webscrapper for cyber articles on Forbes
+# What is this?
+## Its a webscrapper for cyber articles on Forbes:
 This web scrapper will create a CSV file for the most recent cyber articles on the Forbes website, including the headline, the summary and the date.
 I made this so I can write notes/important key points beside each row(article) after I finish reading them without having to copy paste the headline and the data and a mini-summary each time, all I have to do is run a file and I get all the latest cyber articles by date. 
 
@@ -24,13 +25,21 @@ pip install requests
 pip install html5lib
 ```
 
-# Rest of the python code that will need to be run can be found in: 
-```
+# Installing
+
+1.) Download this repo via the `Clone or download` button or clone it via the git CLI:
 
 ```
+git clone https://github.com/adizeina/forbes-cyber-scraper.git
+```
 
+3.) Start the webscrapping program by running `scrape.py`, either manually in a python interpreter or via python CLI:
+```
+python scrape.py
+```
 
-Here is an example: 
-
-<img src="forbes-cyber-csv.png" alt="CSV">
+Here is the CSV file of the result of the program the day I ran it last!
+```
+scraped_data.csv
+```
 
